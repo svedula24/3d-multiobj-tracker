@@ -1,0 +1,52 @@
+# Build
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.make
+
+# Compiled output
+*.o
+*.a
+*.so
+*.dylib
+*.out
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+dist/
+.eggs/
+venv/
+.venv/
+env/
+
+# PyTorch / ML
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Data / point clouds
+*.pcd
+*.bin
+*.npy
+*.npz
+*.bag
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# AddressSanitizer / debug artifacts
+*.dSYM/
+*.log
+CLAUDE.md
